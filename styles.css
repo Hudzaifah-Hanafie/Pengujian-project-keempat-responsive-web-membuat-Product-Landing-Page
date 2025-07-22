@@ -4,12 +4,17 @@ body {
 
 header {
   width: 100%;
-  height: 50px;
+  height: 80px;
   background-color: linen;
   display: flex;
   justify-content: space-between;
   align-items: center;
   top: 0;
+  position: fixed;
+}
+
+main {
+  margin-top: 95px;
 }
 
 nav {
@@ -35,6 +40,149 @@ nav > ul > li {
   display: block;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo h1 {
+  margin-left: 10px;
+}
+
 #header-img {
     width: 80px;
+}
+
+#form {
+  max-width: 500px;
+  margin: auto;
+}
+
+#form h2 {
+  text-align: center;
+}
+
+#form input {
+  margin: 20px auto;
+}
+
+#form #email {
+  width: 250px;
+  height: 30px
+}
+
+#form #submit {
+  width: 100px;
+  height: 28px;
+  background-color: orange;
+}
+
+#form #email, #form #submit {
+  display: block;
+}
+
+#features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.icon i{
+    font-size: 70px;
+    color: #ff6600;
+    width: 150px;
+    text-align: center;
+}
+
+.text {
+    flex: 1;
+}
+
+.text h2 {
+    margin: 0;
+    font-size: 1.7em;
+}
+
+.text p {
+    margin: 5px 0 0;
+    color: #444;
+}
+
+#introduction {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+
+#introduction iframe {
+  max-width: 600px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
+
+#pricing {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bean-type {
+  width: 33%;
+  max-width: 300px;
+  min-width: 200px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.bean-type h3 {
+  background-color: #dddd;
+  margin-top: 0;
+  padding-top: 20px;
+  height: 45px;
+}
+
+.bean-type .btn {
+  background-color: orange;
+  height: 30px;
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: right;
+  padding: 15px 10px 5px;
+  margin-top: 25px;
+  background-color: #dddd;
+}
+
+footer a {
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 660px) {
+    .logo h1 {
+      font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .icon {
+      display: none;
+    }
 }

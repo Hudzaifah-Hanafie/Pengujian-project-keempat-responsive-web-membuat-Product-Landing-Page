@@ -1,75 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <header id="header">
-        <img src="https://img.freepik.com/free-vector/coffee-beans-heart-shape_78370-7108.jpg?semt=ais_hybrid&w=80" alt="" id="header-img">
+      <div class="logo">
+        <img src="https://img.freepik.com/free-vector/coffee-beans-heart-shape_78370-7108.jpg?semt=ais_hybrid&w=80" alt="" id="header-img" />
         <h1>Original Beans</h1>
-        <nav id="nav-bar">
-            <ul>
-                <li>
-                    <a href="#features" class="nav-link">Features</a>
-                </li>
-                <li>
-                    <a href="#video" class="nav-link">How It Works</a>
-                </li>
-                <li>
-                    <a href="#pricing" class="nav-link">Pricing</a>
-                </li>
-            </ul>
-        </nav>
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li>
+            <a href="#features" class="nav-link">Features</a>
+          </li>
+          <li>
+            <a href="#introduction" class="nav-link">Introduction</a>
+          </li>
+          <li>
+            <a href="#pricing" class="nav-link">Pricing</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <input type="email" name="email" id="email" placeholder="Enter your email address">
-        <input type="submit" id="submit">
-    </form>
-    <div id="features">
+    <main>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <h2>High Grade and Special Taste Coffee Beans</h2>
+        <input type="email" name="email" id="email" placeholder="Enter your email address" />
+        <input type="submit" id="submit" />
+      </form>
+      <div id="features">
         <div class="feature-item">
+          <div class="icon">
+            <i class="fa-solid fa-fire-flame-curved"></i>
+          </div>
+          <div class="text">
             <h2>Lorem ipsum</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex nulla vitae quae voluptas. Incidunt dicta officiis repudiandae, obcaecati iure sed unde, qui eum voluptates dolore nulla excepturi aspernatur quidem dolorum.</p>
+          </div>
         </div>
+
         <div class="feature-item">
+          <div class="icon">
+            <i class="fa-solid fa-truck"></i>
+          </div>
+          <div class="text">
             <h2>Lorem ipsum</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex nulla vitae quae voluptas. Incidunt dicta officiis repudiandae, obcaecati iure sed unde, qui eum voluptates dolore nulla excepturi aspernatur quidem dolorum.</p>
+          </div>
         </div>
+
         <div class="feature-item">
+          <div class="icon">
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="text">
             <h2>Lorem ipsum</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex nulla vitae quae voluptas. Incidunt dicta officiis repudiandae, obcaecati iure sed unde, qui eum voluptates dolore nulla excepturi aspernatur quidem dolorum.</p>
+          </div>
         </div>
-    </div>
-    <iframe src="https://www.youtube.com/embed/i2kb_tWc_vQ?si=aWieW8l0lk2j7uLf" frameborder="0" id="video"></iframe>
-    <div id="pricing">
+      </div>
+      <div id="introduction">
+        <iframe src="https://www.youtube.com/embed/i2kb_tWc_vQ?si=aWieW8l0lk2j7uLf" frameborder="0" id="video"></iframe>
+      </div>
+      <div id="pricing">
         <div class="bean-type">
-            <h3>Arabica</h3>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-        </div>
-        <div class="bean-type">
-            <h3>Robusta</h3>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
+          <h3>Arabica</h3>
+          <p>Lorem ipsum</p>
+          <p>Lorem ipsum</p>
+          <p>Lorem ipsum</p>
+          <p>Lorem ipsum</p>
+          <button class="btn">Select</button>
         </div>
         <div class="bean-type">
-            <h3>Liberica</h3>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
+          <h3>Robusta</h3>
+          <p>Lorem ipsum</p>
+          <p>Lorem ipsum</p>
+          <p>Lorem ipsum</p>
+          <p>Lorem ipsum</p>
+          <button class="btn">Select</button>
         </div>
-    </div>
+        <div class="bean-type">
+          <h3>Liberica</h3>
+          <p>Lorem ipsum</p>
+          <p>Lorem ipsum</p>
+          <p>Lorem ipsum</p>
+          <p>Lorem ipsum</p>
+          <button class="btn">Select</button>
+        </div>
+      </div>
+    </main>
     <footer>
-        <a href="">Privacy</a>
-        <a href="">Terms</a>
-        <a href="">Contact</a>
+      <a href="">Privacy</a>
+      <a href="">Terms</a>
+      <a href="">Contact</a>
+      <p>Copyright 2016, Original Beans</p>
     </footer>
-</body>
+  </body>
 </html>
